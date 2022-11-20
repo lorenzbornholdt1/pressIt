@@ -119,11 +119,16 @@ int game()
   {
     if (playsMem[i] != inputMem[i])
     {
-      return -1;
+      return -1; //Failed to remember
     }
   }
 
   delay(500);
+
+  if(playsindex+1 == sizeof(playsMem)/sizeof(playsMem[0])){ //If memory of player is to good
+    playsindex = 1;
+  }
+  
 
   for (i = 0; i < playsindex; i++)
   {
@@ -159,6 +164,10 @@ void gameOver()
 
 void loop()
 {
+
+ 
+
+
 
   delay(200);
   pressedButton = getPressedButton();
