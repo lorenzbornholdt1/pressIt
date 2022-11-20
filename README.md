@@ -11,3 +11,4 @@ Goal: Press the correct sequence of randomly flashing LEDs.
 | Arduino UNO | 1 |
 
 # Breadboard
+[![Breadboard](https://github.com/lorenzbornholdt1/pressIt/blob/master/breadboard_Steckplatine.png)](https://github.com/lorenzbornholdt1/pressIt/blob/master/breadboard_Steckplatine.png)
