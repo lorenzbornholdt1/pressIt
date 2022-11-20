@@ -127,7 +127,7 @@ int game()
 
   for (i = 0; i < playsindex; i++)
   {
-    Serial.print(playsMem[i]);
+    
     soundAndBlinkOnce(sounds[playsMem[i] - 1], ledPins[playsMem[0] - 1], 50, 600);
 
   }
@@ -164,7 +164,7 @@ void loop()
   pressedButton = getPressedButton();
   if (pressedButton > 0 && debounced == true)
   {
-    Serial.println(pressedButton);
+    
     soundAndBlinkOnce(sounds[pressedButton - 1], ledPins[pressedButton - 1], 50, 50);
     debounced = false;
     inputMem[inputIndex] = pressedButton;

@@ -10,5 +10,8 @@ Goal: Press the correct sequence of randomly flashing LEDs.
 | Button | 3-7|
 | Arduino UNO | 1 |
 
+# Build
+Using Arduino IDE or Platform.io or other tools to compile and flash main.cpp.
+
 # Breadboard
 [![Breadboard](https://github.com/lorenzbornholdt1/pressIt/blob/master/breadboard_Steckplatine.png)](https://github.com/lorenzbornholdt1/pressIt/blob/master/breadboard_Steckplatine.png)
