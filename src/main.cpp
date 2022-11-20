@@ -133,14 +133,14 @@ int game()
   for (i = 0; i < playsindex; i++)
   {
     
-    soundAndBlinkOnce(sounds[playsMem[i] - 1], ledPins[playsMem[0] - 1], 50, 600);
+    soundAndBlinkOnce(sounds[playsMem[i] - 1], ledPins[playsMem[i] - 1], 50, 600);
 
   }
   /*New number*/
   playsMem[i] = getRandomNumber(1, 3);
   playsindex++;
   delay(600);
-  soundAndBlinkOnce(sounds[playsMem[i] - 1], ledPins[playsMem[0] - 1], 50, 600);
+  soundAndBlinkOnce(sounds[playsMem[i] - 1], ledPins[playsMem[i] - 1], 50, 600);
 
   // Clear all
   clearLED();
